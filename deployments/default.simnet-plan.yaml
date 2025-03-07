@@ -60,6 +60,11 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: interdimensional-quality-assurance
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/interdimensional-quality-assurance.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: multiversal-customs-tariff
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/multiversal-customs-tariff.clar
