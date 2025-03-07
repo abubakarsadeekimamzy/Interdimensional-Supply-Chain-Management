@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.interdimensional-quality-assurance]
+path = 'contracts/interdimensional-quality-assurance.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.multiversal-customs-tariff]
 path = 'contracts/multiversal-customs-tariff.clar'
 clarity_version = 2
